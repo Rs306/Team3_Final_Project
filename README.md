@@ -1,4 +1,4 @@
-# final_project
+# Team_3 final_project 
 
 This is a Streamlit-based document assistant application that allows users to upload PDF files and interact with their contents using a conversational interface. The chatbot answers questions strictly based on the uploaded documents and includes page number citations. If the answer cannot be found, it politely informs the user.
 
