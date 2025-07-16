@@ -13,6 +13,8 @@ This is a Streamlit-based document assistant application that allows users to up
   - Candidate pool size
   - Diversity (MMR)
 - Toggle between OpenAI models (`gpt-4o` or `gpt-3.5-turbo`)
+- The Creative version of the chatbot is designed to allow more open-ended, imaginative, or inferential questions, including those that may go beyond the strict facts stated in the 10-K files. It offers more flexibility, which can make the chatbot feel smarter or more helpful, but it also increases the risk of hallucination because it might generate answers that are not grounded in the source documents.
+
 
 ## Installation
 
