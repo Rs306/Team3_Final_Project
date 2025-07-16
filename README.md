@@ -5,6 +5,7 @@ This is a Streamlit-based document assistant application that allows users to up
 ## Features
 
 - Upload and process one or more PDF files
+- Offers downloadable chat history
 - Ask natural language questions about the content
 - Answers cite specific page numbers (e.g., “(page 3)”)
 - Clear fallback message if the answer isn’t in the documents
