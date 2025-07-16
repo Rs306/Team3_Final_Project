@@ -83,7 +83,7 @@ Visit `http://localhost:8501` in your browser.
   _“I don’t have enough information in the document to answer that. Could you please clarify or ask a different question?”_
 - No hallucinations or external data are allowed if you don't switch mode.
 - The assistant is polite, accurate, and document-focused.
-- It offers reliable, relevant information if the chatbot is not able to locate the prompt in the uploaded files and it automatically help you to link or provide insights.
+- It offers relevant information if the chatbot is not able to locate the prompt in the uploaded files and it automatically help you to link or provide insights, please consider double-check the factual information in case the hallucination is providing false information. 
 
 ## License
 
