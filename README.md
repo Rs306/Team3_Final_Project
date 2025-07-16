@@ -1,6 +1,6 @@
 # Team_3 final_project 
 
-This is a Streamlit-based document assistant application that allows users to upload PDF files and interact with their contents using a conversational interface. The chatbot answers questions strictly based on the uploaded documents and includes page number citations. If the answer cannot be found, it politely informs the user.
+This is a Streamlit-based document assistant application that allows users to upload PDF files and interact with their contents using a conversational interface. The chatbot answers questions strictly based on the uploaded documents and includes page number citations. If the answer cannot be found, it politely informs the user. If you want more than just a direct answer, you can also enable the creative chatbot with reliable relevant information by simply clicking on the choice box!
 
 ## Features
 
@@ -12,6 +12,7 @@ This is a Streamlit-based document assistant application that allows users to up
   - Top context chunks
   - Candidate pool size
   - Diversity (MMR)
+- Creative Speculation Mode
 - Toggle between OpenAI models (`gpt-4o` or `gpt-3.5-turbo`)
 - The Creative version of the chatbot is designed to allow more open-ended, imaginative, or inferential questions, including those that may go beyond the strict facts stated in the 10-K files. It offers more flexibility, which can make the chatbot feel smarter or more helpful, but it also increases the risk of hallucination because it might generate answers that are not grounded in the source documents.
 
@@ -79,8 +80,9 @@ Visit `http://localhost:8501` in your browser.
 - The assistant must always cite page numbers.
 - If insufficient context is available, it says:
   _“I don’t have enough information in the document to answer that. Could you please clarify or ask a different question?”_
-- No hallucinations or external data are allowed.
+- No hallucinations or external data are allowed if you don't switch mode.
 - The assistant is polite, accurate, and document-focused.
+- It offers reliable, relevant information if the chatbot is not able to locate the prompt in the uploaded files and it automatically help you to link or provide insights.
 
 ## License
 
